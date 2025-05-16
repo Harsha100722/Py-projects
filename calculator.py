@@ -21,7 +21,7 @@ def division():
     print(f"The division of {num1} and {num2} numebrs is : {num1/num2}")
 
 
-def modulus():
+def modulo():
     num1=int(input("enter the first number:"))
     num2=int(input("enter the second number:"))
     print(f"The modulo of {num1} and {num2} numebrs is : {num1%num2}")
@@ -33,7 +33,7 @@ while True:
 2.Subtraction
 3.Multiplation
 4.Division
-5.Modulus
+5.Modulo
 0.quit
 enter the number here:'''))
     
@@ -46,7 +46,7 @@ enter the number here:'''))
     elif x==4:
         division()
     elif x==5:
-        modulus()
+        modulo()
     elif x==0:
         print("quitting the process..")
         break
