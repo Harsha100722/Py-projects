@@ -46,7 +46,7 @@ enter the number here:'''))
     elif x==4:
         division()
     elif x==5:
-        modulus()
+        modulo()
     elif x==0:
         print("quitting the process..")
         break
