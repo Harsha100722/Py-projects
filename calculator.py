@@ -21,7 +21,7 @@ def division():
     print(f"The division of {num1} and {num2} numebrs is : {num1/num2}")
 
 
-def modulus():
+def modulo():
     num1=int(input("enter the first number:"))
     num2=int(input("enter the second number:"))
     print(f"The modulo of {num1} and {num2} numebrs is : {num1%num2}")
