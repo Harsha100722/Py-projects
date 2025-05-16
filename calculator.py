@@ -33,7 +33,7 @@ while True:
 2.Subtraction
 3.Multiplation
 4.Division
-5.Modulus
+5.Modulo
 0.quit
 enter the number here:'''))
     
