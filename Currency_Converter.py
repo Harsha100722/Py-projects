@@ -41,13 +41,16 @@ def conv():
     try:
         float(a1)
     except ValueError:
-        messagebox.showinfo("Failure","please enter amount in values")
+        messagebox.showinfo("Failure","please enter amount in values!")
         return
     if a2 not in curr1['values']:
-        messagebox.showinfo("Failure","Enter only valid currency type or Use drop downlist")
+        messagebox.showinfo("Failure","Enter only valid currency type or Use drop downlist!")
         return
     if a3 not in curr2['values']:
-        messagebox.showinfo("Failure", f"Enter only valid currency type or Use drop downlist")
+        messagebox.showinfo("Failure","Enter only valid currency type or Use drop downlist!")
+        return
+    if a2==a3:
+        messagebox.showinfo("Failure","Cannot convert into same currency type!")
         return
     else:
         cur=round(c.convert(a1,a2,a3),2)
