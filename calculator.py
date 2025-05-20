@@ -1,30 +1,30 @@
 def additon():
     num1=int(input("enter the first number:"))
     num2=int(input("enter the second number:"))
-    print(f"The additon of {num1} and {num2} numebrs is : {num1+num2}")
+    print(f"The additon of {num1} and {num2} numbers is : {num1+num2}")
 
 def subtraction():
     num1=int(input("enter the first number:"))
     num2=int(input("enter the second number:"))
-    print(f"The subtraction of {num1} and {num2} numebrs is : {num1-num2}")
+    print(f"The subtraction of {num1} and {num2} numbers is : {num1-num2}")
 
 
 def multiplation():
     num1=int(input("enter the first number:"))
     num2=int(input("enter the second number:"))
-    print(f"The multiplation of {num1} and {num2} numebrs is : {num1*num2}")
+    print(f"The multiplation of {num1} and {num2} numbers is : {num1*num2}")
 
 
 def division():
     num1=int(input("enter the first number:"))
     num2=int(input("enter the second number:"))
-    print(f"The division of {num1} and {num2} numebrs is : {num1/num2}")
+    print(f"The division of {num1} and {num2} numbers is : {num1/num2}")
 
 
 def modulo():
     num1=int(input("enter the first number:"))
     num2=int(input("enter the second number:"))
-    print(f"The modulo of {num1} and {num2} numebrs is : {num1%num2}")
+    print(f"The modulo of {num1} and {num2} numbers is : {num1%num2}")
 
 
 while True:
