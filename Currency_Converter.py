@@ -59,8 +59,6 @@ def conv():
         if result==None:
             result=Label(root,text=(f"{a1} {a2} = {cur} {a3}"),font="Times 13 bold",fg="black")
             result.place(x=180,y=370)
-        else:
-            result.config(text=(f"{a1} {a2} = {cur} {a3}"))
         return
 
 Button(root,text="CONVERT",command=conv,font="Times 15 bold",bg="white",fg="black").place(x=200,y=320)
